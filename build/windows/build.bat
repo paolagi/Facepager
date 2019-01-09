@@ -3,7 +3,7 @@ SET PATH=%PATH%;C:\AndereProgramme\Python27
 set PYTHONPATH="C:\AndereProgramme\Python27\Lib;C:\AndereProgramme\Python27\DLLs"
 
 cd ../../src
-python setup_windows.py build
+C:\AndereProgramme\Python27\python setup_windows.py build
 
 cd build
 copy Facepager.exe exe.win32-2.7
